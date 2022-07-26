@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: '/google_map/dist',
+  publicPath: '/google_map',
 })
 
 module.exports = {
