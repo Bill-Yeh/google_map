@@ -105,7 +105,7 @@ export default {
       if (navigator.geolocation) {
         console.log('true');
       }
-      navigator.geolocation.getCurrentPosition(position => {
+      navigator.geolocation.getCurrentPosition((position) => {
           this.currentPosition = {
             lat: position.coords.latitude,
             lng: position.coords.longitude
