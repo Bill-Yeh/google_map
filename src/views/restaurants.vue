@@ -39,8 +39,9 @@
 // import zhongli from '../dummy_data/zhongli.json';
 // import taoyuan from '../dummy_data/taoyuan.json';
 // import pingzhen from '../dummy_data/pingzhen.json';
-
 export default {
+  // eslint-disable-next-line
+  /* eslint-disable */
   name: 'RestaurantsMap',
   data() {
     return {
