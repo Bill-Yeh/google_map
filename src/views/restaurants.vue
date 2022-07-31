@@ -178,10 +178,10 @@ export default {
         this.directiosRenderer.set('directions', null);
         this.directiosService.route({
           origin: new google.maps.LatLng(
-            // this.currentPosition.lat,
-            // this.currentPosition.lng
-            this.lat,
-            this.lng
+            this.currentPosition.lat,
+            this.currentPosition.lng
+            // this.lat,
+            // this.lng
           ),
           destination: {
             placeId: this.selectRestaurants.placeId
